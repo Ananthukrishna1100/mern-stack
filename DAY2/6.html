@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Pricing Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Pricing Table Section -->
+    <section class="pricing-table">
+        <div class="pricing-toggle">
+            <label for="pricing-toggle">Monthly</label>
+            <input type="checkbox" id="pricing-toggle">
+            <label for="pricing-toggle">Yearly</label>
+        </div>
+        
+        <div class="pricing-options">
+            <!-- Basic Tier -->
+            <div class="pricing-card basic">
+                <h2>Basic</h2>
+                <p class="price"><span class="currency">$</span><span class="price-amount">19</span><span class="price-period">/mo</span></p>
+                <ul class="features">
+                    <li>✔ 1 Website</li>
+                    <li>✔ 5 GB Storage</li>
+                    <li>✔ 24/7 Support</li>
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+
+            <!-- Pro Tier (Highlighted) -->
+            <div class="pricing-card pro">
+                <h2>Pro</h2>
+                <p class="price"><span class="currency">$</span><span class="price-amount">39</span><span class="price-period">/mo</span></p>
+                <ul class="features">
+                    <li>✔ 5 Websites</li>
+                    <li>✔ 50 GB Storage</li>
+                    <li>✔ 24/7 Priority Support</li>
+                    <li>✔ Advanced Analytics</li>
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+
+            <!-- Premium Tier -->
+            <div class="pricing-card premium">
+                <h2>Premium</h2>
+                <p class="price"><span class="currency">$</span><span class="price-amount">59</span><span class="price-period">/mo</span></p>
+                <ul class="features">
+                    <li>✔ Unlimited Websites</li>
+                    <li>✔ 100 GB Storage</li>
+                    <li>✔ 24/7 Dedicated Support</li>
+                    <li>✔ Advanced Analytics & Reporting</li>
+                    <li>✔ Priority Feature Requests</li>
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

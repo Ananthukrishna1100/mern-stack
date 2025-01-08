@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+    
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        #uniqueHeading {
+            color: #FF5733;
+            text-transform: uppercase;
+        }
+
+        .important-text {
+            color: #00008B;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to CSS Styling Example</h1>
+    
+    <!-- Inline CSS Example -->
+    <p style="color: red;">This paragraph has inline CSS for red text.</p>
+    
+    <!-- Internal CSS Example -->
+    <div id="uniqueHeading">
+        <p>This is a paragraph inside a div with an ID. The color is set via internal CSS.</p>
+    </div>
+    
+    <!-- Class Selector Example -->
+    <div class="important-text">
+        <p>This paragraph has text styled using a class selector.</p>
+    </div>
+    
+    <p class="important-text">This is another example using the class selector.</p>
+    
+    <p>This is a regular paragraph without any specific styling.</p>
+
+</body>
+</html>

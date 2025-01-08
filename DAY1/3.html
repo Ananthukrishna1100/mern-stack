@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Company Webpage</title>
+    <!-- You can add your CSS link here -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-bottom: 2px solid #ccc;
+        }
+        header .logo img {
+            height: 50px;
+        }
+        header .company-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        header .search-bar input[type="text"] {
+            padding: 5px;
+            margin-right: 10px;
+        }
+        header .buttons {
+            display: flex;
+            gap: 10px;
+        }
+        header .buttons button {
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+
+        section h1, section h2, section h3, section h4, section h5, section h6 {
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Company Logo">
+        </div>
+        
+        <div class="company-name">
+            My Company
+        </div>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        
+        <div class="buttons">
+            <button onclick="window.location.href='login.html'">Login</button>
+            <button onclick="window.location.href='signup.html'">Sign Up</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Shopping</a></li>
+            <li><a href="#">Product Cat</a></li>
+            <li><a href="#">Payment</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section 1 -->
+    <section>
+        <h1>Section 1: Introduction</h1>
+        <p>Welcome to the introduction section of our webpage. Here we explain the main purpose and features of the site.</p>
+        <ul>
+            <li>Feature 1: User-friendly design</li>
+            <li>Feature 2: Easy navigation</li>
+            <li>Feature 3: Secure transactions</li>
+        </ul>
+    </section>
+
+    <!-- Section 2 -->
+    <section>
+        <h2>Section 2: Products</h2>
+        <p>This section showcases our featured products.</p>
+        <ol>
+            <li>Product 1: High-quality speakers</li>
+            <li>Product 2: Wireless headphones</li>
+            <li>Product 3: Smartwatch</li>
+        </ol>
+    </section>
+
+    <!-- Section 3 -->
+    <section>
+        <h3>Section 3: Shopping Cart</h3>
+        <p>Your shopping cart will contain all your selected products. Below is a list of items currently in the cart:</p>
+        <ul>
+            <li>Item 1: Bluetooth Speaker</li>
+            <li>Item 2: Laptop Stand</li>
+        </ul>
+    </section>
+
+    <!-- Section 4 -->
+    <section>
+        <h4>Section 4: Product Categories</h4>
+        <p>Explore the various categories of products we offer.</p>
+        <ol>
+            <li>Electronics</li>
+            <li>Clothing</li>
+            <li>Accessories</li>
+        </ol>
+    </section>
+
+    <!-- Section 5 -->
+    <section>
+        <h5>Section 5: Payment Methods</h5>
+        <p>We offer several payment options to ensure a secure transaction.</p>
+        <ul>
+            <li>Credit Card</li>
+            <li>PayPal</li>
+            <li>Bank Transfer</li>
+        </ul>
+    </section>
+
+    <!-- Section 6 -->
+    <section>
+        <h6>Section 6: Customer Support</h6>
+        <p>If you need help, feel free to reach out to our customer support team.</p>
+        <ol>
+            <li>Option 1: Email support</li>
+            <li>Option 2: Live chat</li>
+            <li>Option 3: Phone support</li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Company</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

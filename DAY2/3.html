@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border Styles</title>
+	<style>
+		.container {
+			width: 800px;
+			margin: 40px auto;
+			background-color: #f7f7f7;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		.image-container {
+			float: left;
+			width: 33.33%;
+			margin: 10px;
+			text-align: center;
+		}
+		.image {
+			width: 100%;
+			height: 200px;
+			background-size: cover;
+			background-position: center;
+			border-radius: 10px;
+			transition: transform 0.2s ease-in-out;
+		}
+		.image:hover {
+			transform: scale(1.05);
+		}
+		.image1 {
+			background-image: url('(link unavailable)');
+			border: 4px dotted #00698f;
+		}
+		.image2 {
+			background-image: url('(link unavailable)');
+			border: 4px dashed #ff9900;
+		}
+		.image3 {
+			background-image: url('(link unavailable)');
+			border: 4px solid #ff0033;
+		}
+		.image4 {
+			background-image: url('(link unavailable)');
+			border: 4px double #33cc33;
+		}
+		.image5 {
+			background-image: url('(link unavailable)');
+			border: 4px groove #6666ff;
+		}
+		.image6 {
+			background-image: url('(link unavailable)');
+			border: 4px ridge #ff66ff;
+		}
+		.image7 {
+			background-image: url('(link unavailable)');
+			border: 4px inset #99ccff;
+		}
+		.image8 {
+			background-image: url('(link unavailable)');
+			border: 4px outset #ffcc99;
+		}
+		.image9 {
+			background-image: url('(link unavailable)');
+			border: none;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		}
+		.caption {
+			margin-top: 10px;
+			font-size: 18px;
+			font-weight: bold;
+			color: #333;
+		}
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+	</style>
+</head>
+<body>
+	<div class="container clearfix">
+		<div class="image-container">
+			<a href="(link unavailable)">
+				<div class="image image1"></div>
+			</a>
+			<div class="caption">1. Dotted</div>
+		</div>
+		<div class="image-container">
+			<a href="(link unavailable)">
+				<div class="image image2"></div>
+			</a>
+			<div class="caption">2. Dashed</div>
+		</div>
+		<div class="image-container">
+			<a href="(link unavailable)">
+				<div class="image image3"></div>
+			</a>
+			<div class="caption">3. Solid</div>
+		</div>
+		<div class="image-container">
+			<a href="(link unavailable)">
+				<div class="image image4"></div>
+			</a>
+			<div class="caption">4. Double</div>
+		</div>
+		<div class="image-container">
+			<a href="(link unavailable)">
+				<div class="image image5"></div>
+			</a>
+			<div class="caption">5. Groove</div>
+		</div>
+		<div
